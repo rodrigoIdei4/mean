@@ -31,5 +31,11 @@ A função url.parser() retorna os seguuintes atributos:
 - query			: retorna uma query string em JSON: {'query':'string'}
 - hash			: retorna a ancora d url: '#hash'
 
+
+Express
+
+Express é o framework para aplicações web
+
+
 =======
 Leitura do livro: "Node.js - Aplicações web real-time com Node.js"
