@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rodrigoIdei4/mean",
   "dependencies": {
-    "express": "^4.10.6"
+    "express": "^4.10.6",
+    "express-load": "^1.1.14"
   }
 }
