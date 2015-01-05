@@ -1,0 +1,15 @@
+{
+  "name": "happyNewYear",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "> 4.10.6",
+    "body-parser": "> 1.10.1",
+    "cookie-parser": "> 1.3.3",
+    "serve-favicon": "> 2.2.0",
+    "ejs": "> 1.0.0"
+  }
+}
