@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/public'));
 load('models')
     .then('controllers')
     .then('routes')
-    .into('app');
+    .into(app);
 
 app.listen(3000, function(){
     console.log("Happy New Year no ar.");
