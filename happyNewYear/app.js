@@ -4,6 +4,7 @@ var express = require('express')
     , cookieParser = require('cookie-parser')
     , expressSession = require('express-session')
     , methodOverride = require('method-override')
+    , error = require('./middleware/error')
     , app = express()
 ;
 
@@ -20,6 +21,9 @@ load('models')
     .then('controllers')
     .then('routes')
     .into(app);
+
+app.use(error.notFound);
+app.use(error.serverError);
 
 app.listen(3000, function(){
     console.log("Happy New Year no ar.");
