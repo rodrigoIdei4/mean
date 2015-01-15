@@ -3,7 +3,7 @@ module.exports = function(app){
 		index: function(req, res){
 			var usuario = req.session.usuario
 			, contatos = usuario.contatos
-			, params = {usuario: usuario};
+			, params = {usuario: usuario, contatos: contatos};
 			res.render('contatos/index', params);
 		},
 		create: function(req, res){
